@@ -74,3 +74,8 @@ function love.draw()
 end
 
 
+-- Box Draw
+
+	love.graphics.setBackgroundColor(0.2, 0.6, 0.4, 1)
+	love.graphics.rectangle('fill', 600, 400, 32, 32)
+
